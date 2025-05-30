@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box
+}
+.navbar{
+height:60px;
+background-color: #0f1111;
+color:white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+    }
+    .nav-logo{
+        height:50px;
+        width:100px;
+    }
+.logo{
+    background-image: url(amazond.png);
+    background-size:cover;
+    height: 50px;
+    width:100%;
+}
+.border{
+ border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+   }
+   /* box2 */
+.add1{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add2{
+ color:white;
+ font-size:1rem;
+ margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+   /* box3 */
+.navsearch{
+    display: flex;
+    background-color: yellow;
+    width:620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.navsearch:hover{
+    border:3px solid orange;
+}
+.searchsel{
+    background-color: #F3F3F3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border:none;
+}  
+.searchin{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68 ;
+    color:#0f1111;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+/* box 4,5 */
+span{
+font-size: 0.72rem;
+}
+.navduplicate{
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+/* box6 */
+.navcart i{
+    font-size: 2rem;
+}
+.navcart{
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+/* panel */
+.panel{
+    height:40px;
+background-color: #222f3d;
+color: #F3F3F3;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.panelall{
+font-weight: 700;
+font-size: 0.85rem;
+   
+}
+.panelgen p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelgen{
+    width:70%;
+    font-size: 0.85rem;
+   
+}
+.panelelc{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* herosec */
+.herosec{
+    background-image:url(amazonfrontf.jpg) ;
+    background-size: cover;
+    height:400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.heromsg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:90%;
+    margin-bottom: 25px;
+}
+.heromsg a{
+    color: #007185;
+}
+/* shopsec */
+.shopsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#b0e8cf
+}
+.box{
+    /* border:2px solid black; */
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 15px;
+}
+.boximg{
+    height:300px;
+    background-size: cover;
+    /* background-repeat: no-repeat ; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+}
+.boxcontent p{
+    color: #007185;   
+}
+/* footer */
+.footer{
+    margin-top: 15px;
+}
+.footp1{
+    background-color: #374758;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footp2{
+   background-color: #222f3d; 
+   color:white;
+   height: 500px;
+display: flex;
+justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd
+}
+ul p{
+    font-weight: 700;
+}
+.footp3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logof{
+    background-image: url(amazonbl.png);
+    background-size:cover;
+    height: 50px;
+    width:100px
+}
+.footp4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    
+    padding-top: 25px;
+}
+.copyr{
+    padding-top: 5px;
+}
